@@ -76,8 +76,3 @@ func (c *Course) Find(id string) (Course, error) {
 	}
 	return Course{ID: id, Name: name, Description: description, CategoryID: categoryID}, nil
 }
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-P
